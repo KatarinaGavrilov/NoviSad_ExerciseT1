@@ -35,3 +35,7 @@ RefactoringAction 1494527788278 TestBowling.java RENAME test=>void test() METHOD
 RefactoringAction 1494527813416 TestBowling.java RENAME test()=>void test_() METHOD
 RefactoringAction 1494527819438 TestBowling.java RENAME test_()=>void test_addFrame() METHOD
 EditAction 1494528388795 BowlingGame.java 942 4 4 0
+CompilationAction 1494528392954 BowlingGame.java
+CompilationAction 1494528420413 BowlingGame.java
+CompilationAction 1494528420703 BowlingGame.java
+EditAction 1494528428280 BowlingGame.java 946 4 4 0
