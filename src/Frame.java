@@ -27,7 +27,7 @@ public class Frame {
 			
 		}
 		
-		return 0;
+		return rez;
 	}
 
 	//returns whether the frame is a strike or not
