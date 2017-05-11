@@ -30,3 +30,8 @@ RefactoringAction 1494527547483 BowlingException.java ADD BowlingException() MET
 RefactoringAction 1494527549512 BowlingException.java RENAME BowlingException()=>BowlingException(String) METHOD
 EditAction 1494527557974 BowlingException.java 128 1 1 0
 EditAction 1494527714604 BowlingGame.java 825 4 2 0
+RefactoringAction 1494527785247 TestBowling.java ADD void test FIELD
+RefactoringAction 1494527788278 TestBowling.java RENAME test=>void test() METHOD
+RefactoringAction 1494527813416 TestBowling.java RENAME test()=>void test_() METHOD
+RefactoringAction 1494527819438 TestBowling.java RENAME test_()=>void test_addFrame() METHOD
+EditAction 1494528388795 BowlingGame.java 942 4 4 0
