@@ -20,6 +20,12 @@ public class Frame {
 		//to be implemented
 		
 		int rez = getFirstThrow() + getSecondThrow();
+		if (isSpare()) {
+			
+		}
+		if (isStrike()) {
+			
+		}
 		
 		return 0;
 	}

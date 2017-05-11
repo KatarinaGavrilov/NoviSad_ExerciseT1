@@ -39,3 +39,6 @@ CompilationAction 1494528392954 BowlingGame.java
 CompilationAction 1494528420413 BowlingGame.java
 CompilationAction 1494528420703 BowlingGame.java
 EditAction 1494528428280 BowlingGame.java 946 4 4 0
+RefactoringAction 1494528451078 TestBowling.java ADD void test_score FIELD
+RefactoringAction 1494528453111 TestBowling.java RENAME test_score=>void test_score() METHOD
+EditAction 1494528582764 Frame.java 919 6 12 0
