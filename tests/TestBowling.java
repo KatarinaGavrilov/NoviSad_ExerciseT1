@@ -19,5 +19,13 @@ public class TestBowling {
 		assertEquals("Incorrect", true, isSpare);
 		
 	}
+	
+	@Test
+	public void test_Strike() {
+		Frame frame = new Frame(10,4);
+		boolean isStrike = frame.isStrike();
+		
+		assertEquals("Incorrect", true, isStrike);
+	}
 
 }
