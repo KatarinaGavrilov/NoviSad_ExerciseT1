@@ -18,6 +18,8 @@ public class BowlingGame {
 		
 		if (frames.size() < 10) {
 			frames.add(frame);
+		} else {
+			new BowlingException("Max size is 10");
 		}
 	}
 	
