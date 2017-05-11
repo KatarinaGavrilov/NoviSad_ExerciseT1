@@ -25,3 +25,7 @@ EditAction 1494526983019 TestBowling.java 512 2 6 2
 UnitTestCaseAction 1494526988865 TestBowling.java OK
 UnitTestSessionAction 1494526988867 TestBowling.java OK
 EditAction 1494527481418 BowlingGame.java 769 4 2 0
+FileOpenedAction 1494527522922 BowlingException.java 58 0 0 0
+RefactoringAction 1494527547483 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1494527549512 BowlingException.java RENAME BowlingException()=>BowlingException(String) METHOD
+EditAction 1494527557974 BowlingException.java 128 1 1 0
