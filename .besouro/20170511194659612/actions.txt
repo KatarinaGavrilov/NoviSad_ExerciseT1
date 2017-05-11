@@ -48,3 +48,8 @@ FileOpenedAction 1494528925735 BowlingException.java 128 1 1 0
 EditAction 1494528952629 TestBowling.java 1030 4 19 2
 EditAction 1494529036889 BowlingGame.java 954 4 4 0
 EditAction 1494529040632 Frame.java 921 6 12 0
+UnitTestCaseAction 1494529044745 TestBowling.java FAIL
+UnitTestSessionAction 1494529044747 TestBowling.java FAIL
+UnitTestCaseAction 1494529103101 TestBowling.java OK
+UnitTestSessionAction 1494529103103 TestBowling.java OK
+EditAction 1494529329093 Frame.java 1019 6 13 0

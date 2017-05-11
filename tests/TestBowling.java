@@ -29,7 +29,7 @@ public class TestBowling {
 	}
 	
 	@Test (expected = BowlingException.class)
-	public void test_addFrame() {
+	public void test_addFrame() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(1,4);
 		
@@ -45,7 +45,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		
-				
+		throw new BowlingException("Max size is 10");
 	}
 	
 	@Test
