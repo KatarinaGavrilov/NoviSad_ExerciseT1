@@ -51,6 +51,14 @@ public class TestBowling {
 	@Test
 	public void test_score() {
 		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(3,2);
+		
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		
+		
 		
 		
 	}
