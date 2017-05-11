@@ -27,5 +27,32 @@ public class TestBowling {
 		
 		assertEquals("Incorrect", true, isStrike);
 	}
+	
+	@Test (expected = BowlingException.class)
+	public void test_addFrame() {
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1,4);
+		
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+				
+		
+		
+	}
+	
+	@Test
+	public void test_score() {
+		BowlingGame game = new BowlingGame();
+		
+		
+	}
 
 }
