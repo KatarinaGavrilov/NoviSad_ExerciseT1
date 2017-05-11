@@ -18,12 +18,10 @@ public class Frame {
 	//returns the score of a single frame
 	public int score(){
 		//to be implemented
-		
-		BowlingGame game = new BowlingGame();
-				
+						
 		int rez = getFirstThrow() + getSecondThrow();
 		if (isSpare()) {
-			rez = rez + game.setBonus(firstThrow, secondThrow);
+			
 		}
 		if (isStrike()) {
 			
